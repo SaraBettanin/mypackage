@@ -12,4 +12,4 @@ def myfirstfunction(message=''):
 
     message -- a message to be printed
     """
-    print("This is my first function, your message was: ".format(message))
+    print("This is my first function, your message was: {}".format(message))
