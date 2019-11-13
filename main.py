@@ -14,6 +14,6 @@ myfirstfunction("ciao")
 from mypackage.myfirstmodule import myfirstfunction as myf
 myf("ciao")
 
-#BAD PRACTICE!
+# BAD PRACTICE!
 from mypackage import *
 myfirstmodule.myfirstfunction("ciao")
